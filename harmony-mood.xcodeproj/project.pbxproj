@@ -45,6 +45,11 @@
 			path = "harmony-moodUITests";
 			sourceTree = "<group>";
 		};
+		2BA215CF2CCC7CD2003BD923 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		2BA215982CCC7C84003BD923 = {
 			isa = PBXGroup;
 			children = (
+				2BA215CF2CCC7CD2003BD923 /* Views */,
 				2BA215A32CCC7C84003BD923 /* harmony-mood */,
 				2BA215B42CCC7C88003BD923 /* harmony-moodTests */,
 				2BA215BE2CCC7C88003BD923 /* harmony-moodUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2BA215A32CCC7C84003BD923 /* harmony-mood */,
+				2BA215CF2CCC7CD2003BD923 /* Views */,
 			);
 			name = "harmony-mood";
 			packageProductDependencies = (
